@@ -34,7 +34,6 @@ the date the state was created. '''
 STATES = {}
 PRODUCTION = True
 
-PRODUCTION = False
 if PRODUCTION:
     # Set flask logs to "warning level only in production builds"
     flaskLog = logging.getLogger('werkzeug')
