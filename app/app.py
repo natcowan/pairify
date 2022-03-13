@@ -32,7 +32,7 @@ MATCH_PLAYLIST_ID = '10eJ5YNR0xdDUUgZkx48MP'
 Data is stored as a tuple, with the first element being the state and the second
 the date the state was created. '''
 STATES = {}
-PRODUCTION = True if 'PRODUCTION' in os.environ and os.environ['PRODUCTION'].lower() == 'true' else False
+PRODUCTION = True
 
 PRODUCTION = False
 if PRODUCTION:
